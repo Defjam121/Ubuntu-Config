@@ -12,7 +12,7 @@
 ### Update
 sudo apt-get update
 ### Samba installieren
-sudo apt-get install samba-common samba 
+sudo apt-get install -y samba-common samba 
 ### Samba User erstellen
 sudo smbpasswd -a helpi
 ### smb.conf ersetzten
