@@ -3,7 +3,7 @@
 #
 #       Datei:   		install_samba.sh
 #
-#       Beschreibung:   Installiert Samba, erstellt Samba User und ersetzt smb.conf
+#       Beschreibung:   Installiert Samba
 #       Autor:      	Helpi9007
 #       Version:    	1.0
 #       Erstellt:   	03.04.2017
@@ -12,9 +12,9 @@
 ### Update
 sudo apt-get update
 ### Samba installieren
-sudo apt-get install -y samba-common samba 
+sudo apt-get install -y samba-common samba
 ### Samba User erstellen
-sudo smbpasswd -a helpi
+sudo smbpasswd -a helpi -n
 ### smb.conf ersetzten
 echo "
 [global]
