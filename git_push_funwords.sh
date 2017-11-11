@@ -1,12 +1,12 @@
 #!/bin/bash
 #======================================== ==================================
-#     FILE:                                git_push_funwords.sh
+#     FILE:             git_push_funwords.sh
 #     AUTHOR:                        Helpi_Stone
 #     EMAIL:                             helpi9007@gmail.com
 #     CREATED:                      2017-10-09
 #
-#     MODIFIED BY:                Defjam
-#     MODIFIED DATE:           2017-10-09
+#     MODIFIED BY:      macbook
+#     MODIFIED DATE:    2017-11-04
 #
 #     DESCRIPTION:               "Beschreibung"
 #
